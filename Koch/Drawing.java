@@ -9,8 +9,8 @@ public class Drawing extends JComponent{
 
 	//override preferred size
 	public Dimension getPreferredSize(){
-        return new Dimension(1024, 768);
-    }
+		return new Dimension(1024, 768);
+	}
 	
 	//override paint
 	public void paint(Graphics g){
